@@ -65,14 +65,17 @@ nav a {
   text-align: center;
 }
 
-span #taste  {
+/*span #taste  {
   color: #eee;
-}
+}*/
 
 .hero {
   width: 100%;
   height: 500px;
-  background-color: blue;
+  margin: 0px;
+  background-image: url("images/coworking.jpg");
+  background-repeat: none;
+  /*image background broken*/
 }
 
 .hero-aside {
