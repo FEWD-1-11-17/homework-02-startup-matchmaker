@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+/*  margin: 0px;
+  padding: 0px;*/
 }
 
 .container {
@@ -27,9 +29,14 @@ nav {
 nav > a {
   text-decoration: none;
   color: black;
-  font-weight: 600;
+  font-weight: 500;
   margin-right: 20px;
   font-size: 18px;
+}
+
+.caps {
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 hr {
@@ -42,6 +49,7 @@ hr {
 .tagline {
   height: 90px;
   background-color: lightgrey;
+  border: 1px solid black;
 }
 
 .tagline > h3 {
@@ -63,6 +71,7 @@ aside {
   height: 375px;
   background-color: lightgrey;
   float: left;
+  /*border: 1px solid black;*/
 }
 
 article {
@@ -74,13 +83,17 @@ background-color: darkgrey;
 position: absolute;
 top: 30px;
 left: 635px;
+padding-left: 25px;
+padding-right: 18px;
 }
 
 .left {
-  float: left;
   height: 350px;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 60px;
+  border-right: 2px solid black;
 }
 
 .middle {
@@ -88,16 +101,39 @@ left: 635px;
   margin-right: 5%;
   height: 350px;
   margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 60px;
+  border-right: 2px solid black;
 }
 
 .right {
   /*float: right;*/
   height: 350px;
   margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 60px;
+}
+
+h2 {
+font-size: 30px;
+font-weight: 400;
+
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+
+}
+
+h4 {
+
 }
 
 footer {
   clear:left;
   height: 70px;
   background-color: lightgrey;
+  font-weight: 500;
+  font-size: 20px;
 }
