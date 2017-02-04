@@ -66,7 +66,8 @@ nav .normal {
     text-align: center;
     font-style: italic;
     font-size: 24px;
-    padding-top: 15px;
+    padding-top: 25px;
+    letter-spacing: 1px;
 }
 
 .banner .crossout {
