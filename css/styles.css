@@ -1,0 +1,36 @@
+* {
+  /*background: border-left: ;*/
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: black;
+  border-bottom: 3px yellow solid;
+  padding: 39px 30px;
+}
+
+h1 {
+  color: yellow;
+}
+
+nav {
+  float: right;
+  margin-bottom: 16px;
+}
+nav a {
+  color: white;
+  font-family: sans-serif;
+  margin: 8px;
+  padding: 16px;
+}
+
+h2 {
+  background: lightgray;
+  text-align: center;
+  padding: 24px;
+}
