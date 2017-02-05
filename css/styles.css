@@ -107,6 +107,11 @@ button {
   /*box-shadow: 0px 3px 0px rgba(0,0,0,0.50)*/
   background: yellow;
   margin-top: 24px;
+  letter-spacing: 0.5px;
+}
+
+.column3 button  {
+  background: lightgray;
 }
 
 .third {
@@ -114,14 +119,23 @@ button {
 }
 
 .column3 {
-  width: 25%;
+  width: 27%;
   float: left;
+  margin-bottom: 30px;
 }
 
 .center {
   margin-left: 5%;
   margin-right: 5%;
-  border-right: 1px gray solid;
-  border-left: 1px gray solid;
-  padding: 0 20px;
+  border-right: 1px lightgray solid;
+  border-left: 1px lightgray solid;
+  padding: 0 32px;
+}
+
+footer {
+  clear: both;
+  background: black;
+  color: white;
+  font-size: 20px;
+  padding: 18px 30px;
 }
