@@ -89,6 +89,12 @@ h4 {
   font-weight: 900;
 }
 
+h5 {
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
 p {
   line-height: 27px;
   font-size: 18px;
@@ -103,12 +109,19 @@ button {
   margin-top: 24px;
 }
 
+.third {
+  padding: 30px;
+}
+
 .column3 {
-  width: 30%;
+  width: 25%;
   float: left;
 }
 
 .center {
   margin-left: 5%;
   margin-right: 5%;
+  border-right: 1px gray solid;
+  border-left: 1px gray solid;
+  padding: 0 20px;
 }
