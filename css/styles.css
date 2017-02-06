@@ -51,12 +51,6 @@ nav a {
   color: white;
 }
 
-.nav-item a {
-  /*display: inline-block;
-  width: 100px;
-  padding: 5px;*/
-}
-
 .heading  {
   width: 100%;
   padding: 10px 40px 10px 40px;
@@ -110,29 +104,54 @@ nav a {
   color: black;
 }
 
-section  {
-  width: 33.33%;
-  padding: 10px;
-  float: left;
-  background-color: red;
-  /*remember to remove color*/
+.section  {
+  width: 100%;
+  height: 200px;
 }
 
-section a  {
+.subsection-1 {
+  padding: 10px 50px;
+  width: 30%;
+  height: 175px;
+  float: left;
+}
+
+.subsection-2 {
+  padding: 10px 50px;
+  width: 30%;
+  height: 175px;
+  float: left;
+  border-left: 2px solid #eee;
+  margin-left: 5%;
+}
+
+.subsection-3 {
+  padding: 10px 50px;
+  width: 30%;
+  height: 175px;
+  float: left;
+  border-left: 2px solid #eee;
+  margin-left: 5%:;
+}
+.section a  {
+  display: block;
+  width: 200px;
+  height: 30px;
+  padding: 5px;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
+  border: 1px black solid;
+  background-color: #eee;
+  color: black;
 }
 
 footer  {
-  height: 40px;
+  height: 30px;
   background-color: black;
-  padding-top: 1px;
-  padding-bottom: 1px;
   color: white;
   width: 100%;
   clear: both;
-  font-size: 12px;
-  margin-top: 0px;
+  font-size: 13px;
 }
 
