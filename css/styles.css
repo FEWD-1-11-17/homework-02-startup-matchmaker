@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  /*margin: 10px;*/
+}
+
+h1 {
+  font-family: georgia;
+  font-size: 42px;
+  color: yellow;
+}
+
+h2 {
+  font-family: georgia;
+  font-size: 36px;
+  color: black;
+
+}
+
+h3 {
+  font-family: helvetica;
+  font-size: 36px;
+  color: black;
+}
+
+p {
+  font-family: helvetica;
+  font-size: 20px;
+  line-height: 1.5;
+  color: black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  overflow: auto;
+  background-color: black;
+  padding: 15px;
+}
+
+nav {
+  float: right;
+  width: 80%;
+  overflow: auto;
+}
+
+nav .nav-item1 {
+  float: left;
+  width: 20%;
+  height: 50px;
+  margin-left: 2%;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: impact;
+  font-weight: bold;
+}
+
+nav .nav-item2 {
+  float: left;
+  width: 15%;
+  height: 50px;
+  margin-left: 2%;
+  font-size: 24px;
+  font-family: helvetica;
+}
+
+
+hr {
+  border: 3px solid yellow;
+}
+
+.subheader {
+  width: 100%;
+  overflow: auto;
+  text-align: center;
+  background-color: #EEE;
+}
+
+.taste {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.are {
+  text-decoration: underline;
+}
+
+.content {
+  width: 100%;
+  overflow: auto;
+  clear: both;
+  background-color: white;
+}
+
+.hero {
+  height: 800px;
+  background-color: #eee;
+  width: 100%;
+  float: left;
+}
+
+img {
+  display: block;
+  margin: 0;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.matchbox {
+  background-color: hsla(196, 6%, 94%, 0.5);
+  width: 400px;
+  height: 800px;
+  padding: 30px;
+  margin-right: 10px;
+  /*position: absolute;*/
+  top: 20px;
+  left: 0px;
+  float: right;
+}
+
+.cta1 {
+  font-family: impact;
+  font-size: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 300px
+  height: 100px;
+  background-color: yellow;
+}
+
+.cta2 {
+  font-family: impact;
+  font-size: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 300px
+  height: 100px;
+  background-color: #DDD;
+}
+
+.section {
+  height: 400px;
+  float: left;
+  width: 30%;
+/*  margin-top: 15px;*/
+  padding: 0px 20px;
+}
+
+.center-section {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+footer {
+  height: 100px;
+  background-color: black;
+/*  float: left;*/
+  width: 100%;
+  padding: 5px 20px;
+  font-family: helvetica;
+  font-size: 24px;
+  color: white;
+}
