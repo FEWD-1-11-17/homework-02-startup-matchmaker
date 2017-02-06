@@ -55,14 +55,19 @@ nav a {
   width: 100%;
   padding: 10px 40px 10px 40px;
   clear: both;
-  background-color: #eee;
+  background-color: #CACFD2;
   margin: 0px;
   text-align: center;
+  font-weight: bold;
 }
 
-/*span #taste  {
-  color: #eee;
-}*/
+#taste  {
+  color: #AEB6BF;
+}
+
+#are  {
+  border-bottom: 2px solid yellow;
+}
 
 .hero {
   width: 100%;
@@ -142,7 +147,7 @@ nav a {
   font-weight: bold;
   text-align: center;
   border: 1px black solid;
-  background-color: #eee;
+  background-color: #CACFD2;
   color: black;
 }
 
