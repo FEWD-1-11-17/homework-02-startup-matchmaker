@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Lato', sans-serif;
   width: 900px;
   margin: auto;
 }
@@ -13,7 +13,7 @@ header {
   background-color: black;
   padding: 5px 25px;
   border-bottom: yellow 5px solid;
-  font-family: "Book Antiqua", serif;
+  font-family: 'Merriweather', serif;
 }
 
 h1 {
@@ -25,7 +25,7 @@ nav {
   float: right;
   font-size: 18px;
   margin-left: 10px;
-  font-family: Arial, sans-serif;
+  font-family: 'Oswald', sans-serif;
   padding-bottom: 10px;
 }
 
@@ -65,8 +65,7 @@ h2 {
 }
 
 .aside-container {
-  background-image: url("C:/Users/Sarah/Desktop/FEWD-1-11-17/github/homework-02-startup-matchmaker/images/coworking.jpg");
-  /*WHY WON'T IT LET ME USE RELATIVE PATH??*/
+  background-image: url("../images/coworking.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   overflow: auto;
@@ -81,14 +80,13 @@ aside {
   width: 35%;
   margin: 50px;
   padding: 50px;
-  font-family: Helvetica, sans-serif;
   line-height: 1.5em;
 }
 
 h3 {
   margin: 0px;
   font-size: 24px;
-  font-family: "Book Antiqua", serif;
+  font-weight: bold;
 }
 
 p {
