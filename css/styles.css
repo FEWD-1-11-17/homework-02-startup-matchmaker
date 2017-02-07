@@ -1,0 +1,142 @@
+* {
+	box-sizing: border-box;
+	font-family: Sahitya, sans-serif;
+	margin: 0px;
+}
+
+header {
+	background-color: black;
+	color: yellow;
+	height: 125px;
+	border-bottom: 5px solid yellow;
+	font-size: 20px;
+}
+
+h1 {
+	margin: 0px;
+	padding-left: 20px;
+}
+
+header a {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	padding-right: 15px;
+}
+
+.container {
+	width: 960px;
+	margin:0 auto;
+}
+
+.big {
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+header div {
+	float: left;
+	padding-left: 150px;
+}
+
+h2 {
+	background-color: #a9a9a9;
+	text-align: center;
+	margin: 0px;
+	box-sizing: content-box;
+	font-size: 30px;
+	height: 70px;
+	padding-top: 15px;
+}
+
+.linethrough {
+	text-decoration: line-through;
+	color: #848484;
+}
+
+.underline {
+	padding-bottom: 0px;
+	border-bottom: 4px solid yellow;
+}
+
+.centerpage {
+	background-image: url("../images/coworking.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 500px;
+	margin: 0px;
+}
+
+.centerrightbox {
+	background-color: rgba(255,255,255,0.5);
+	float: right;
+	position: relative;
+	top: 10%;
+	right: 30px;
+	width: 25%;
+	height: 400px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 35px;
+	font-size: 18px;
+}
+
+.yellowbutton {
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	background-color: yellow;
+	border-radius: 15px;
+	top: 50px;
+}
+
+.threeboxes {
+	width: 33%;
+	height: 300px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	font-size: 18px;
+}
+
+.middlebox {
+	width: 33%;
+	height: 300px;
+	float: left;
+	border-left: 2px solid #eee;
+	border-right: 2px solid #eee;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 30px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+.threeheaders {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.button {
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	background-color: #eee;
+	border-radius: 15px;
+	margin-top: 30px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	clear: both;
+	height: 75px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
