@@ -5,7 +5,6 @@
 body  {
   margin: 0 auto;
   overflow: auto;
-  /*why doesn't this apply to everything? I keep having to add it to the code.*/
   font-family: sans-serif;
   font-size: 15px;
   width: 1024px;
@@ -39,12 +38,12 @@ nav  {
   overflow: auto;
 }
 
-nav .nav-bold {
+nav .nav-bold  {
   font-weight: bold;
   text-transform: uppercase;
 }
 
-nav a {
+nav a  {
   display: inline-block;
   width: 175px;
   padding: 5px;
@@ -69,19 +68,16 @@ nav a {
   border-bottom: 2px solid yellow;
 }
 
-.hero {
+.hero  {
   width: 100%;
-  background-color: blue;
-  /*background-image: url("images/coworking.jpg");*/
-  /*background-repeat: no-repeat;*/
-  /*background-position: center center;*/
+  /*background-color: blue;*/
+  background-image: url("../images/coworking.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
   height: 300px;
-  margin: 0px;
-  overflow: auto;
-  /*image background broken*/
 }
 
-.hero-aside {
+.hero-aside  {
   margin: 0px;
   overflow: auto;
   width: 225px;
@@ -89,8 +85,7 @@ nav a {
   padding-right: 20px;
   padding-left: 20px;
   border: 1px black solid;
-  background-color: #eee;
-  /*find a color that I can add transparency*/
+  background-color: rgba(186, 180, 180, 0.7);
   position: relative;
   top: 10px;
   left: 750px;
@@ -114,30 +109,32 @@ nav a {
   height: 200px;
 }
 
-.subsection-1 {
+.subsection-1  {
   padding: 10px 50px;
-  width: 30%;
+  width: 33.33%;
   height: 175px;
   float: left;
+  margin-top: 10px;
 }
 
-.subsection-2 {
+.subsection-2  {
   padding: 10px 50px;
-  width: 30%;
+  width: 33.33%;
   height: 175px;
   float: left;
   border-left: 2px solid #eee;
-  margin-left: 5%;
+  margin-top: 10px;
 }
 
-.subsection-3 {
+.subsection-3  {
   padding: 10px 50px;
-  width: 30%;
+  width: 33.33%;
   height: 175px;
   float: left;
   border-left: 2px solid #eee;
-  margin-left: 5%:;
+  margin-top: 10px;
 }
+
 .section a  {
   display: block;
   width: 200px;
@@ -152,11 +149,16 @@ nav a {
 }
 
 footer  {
-  height: 30px;
+  height: 50px;
   background-color: black;
   color: white;
   width: 100%;
   clear: both;
-  font-size: 13px;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+footer p  {
+  margin: 0;
 }
 
