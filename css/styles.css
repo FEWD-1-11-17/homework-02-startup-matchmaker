@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: "Cambria"; 
+    background-color: white;
+}
+
+/*------------------------------Header Section------------------------------*/
+
+header {
+    border-bottom: 3px yellow solid;
+    height: 120px;
+    background-color: black;
+}
+
+header h1 {
+    color: yellow;
+    padding-left: 20px;
+    margin-top: 0px;
+    font-size: 36px;
+    padding-top: 5px;
+}
+
+header nav {
+    text-align: center;
+    padding-left: 230px;
+    margin-top: 30px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+
+nav .uppercase {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Impact;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+nav .normal {
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+
+/*------------------------------Banner Section------------------------------*/
+
+.banner {
+    border-bottom: 1px black solid;
+    background-color: darkgrey;
+    height: 75px;
+}
+ 
+.banner h2 {
+    margin-top: 0px;
+    text-align: center;
+    font-style: italic;
+    font-size: 28px;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+
+.banner .crossout {
+    color: grey;
+    text-decoration: line-through;
+}
+
+.banner .underline {
+    border-bottom-color: yellow;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+}
+
+/*------------------------------Hero Section------------------------------*/
+
+.hero {
+    height: 550px;
+    background-image: url("../images/coworking.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.create-profile {
+    margin: 25px 50px 25px 0px;
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    opacity: .8;
+    position: absolute;
+    left: 560px;
+}
+
+.create-profile h2 {
+    font-size: 28px;
+    padding: 25px 0px 0px 25px;
+    margin: 15px 0px 0px 0px;
+}
+
+.create-profile p {
+    font-size: 21px;
+    padding: 0px 25px;
+    word-spacing: 1px;
+    line-height: 1.8;
+    font-family: Arial;
+}
+
+.create-profile h4 {
+    border: 1px solid black;
+    margin: 50px 30px 20px 30px;
+    height: 75px;
+    text-align: center;
+    padding-top: 25px;
+    background-color: yellow;
+    opacity: 1;
+    border-radius: 5px;
+    box-shadow: 0px 2px 1px #888888;
+    font-family: Impact;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+/*------------------------------3 Sections------------------------------*/
+
+.bottom-mid {
+    padding: 15px;
+    overflow: auto;
+}
+
+
+section {
+    float: left;
+    width: 33.1%;
+    height: 410px;
+    background-color: white;
+}
+
+section h1 {
+    color: black;
+    padding: 0 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 35px;
+    line-height: 1.4;
+}
+
+section p {
+    font-size: 21px;
+    margin-top: 0px;
+    padding: 0px 25px;
+    word-spacing: 1px;
+    line-height: 1.8;
+    font-family: Arial;
+}
+
+section h4 {
+    border: 1px solid black;
+    margin: 20px 30px 20px 30px;
+    height: 75px;
+    text-align: center;
+    padding-top: 25px;
+    background-color: #CCC;
+    opacity: 1;
+    border-radius: 5px;
+    box-shadow: 0px 2px 1px #888888;
+    font-family: Impact;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.middle {
+    margin: 0px 0px 0px 3px;
+    width: 33.12%;
+    border-left: 2px #eee solid;
+    border-right: 2px #eee solid;
+}
+
+.section-right {
+    float: right;
+}
+
+/*------------------------------Footer Section------------------------------*/
+
+footer {
+    clear: both;
+    height: 75px;
+    color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: black;
+    border: 1px black solid;
+    font-size: 18px;
+
+}
