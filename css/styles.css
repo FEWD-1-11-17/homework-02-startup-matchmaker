@@ -5,7 +5,6 @@
 body {
     width: 960px;
     margin: 0 auto;
-    border: 1px solid black;
     font-family: "Cambria"; 
     background-color: white;
 }
@@ -134,12 +133,17 @@ nav .normal {
 
 /*------------------------------3 Sections------------------------------*/
 
+.bottom-mid {
+    padding: 15px;
+    overflow: auto;
+}
+
+
 section {
     float: left;
     width: 33.1%;
     height: 410px;
     background-color: white;
-    border-left: #f2f2f2 solid 2px;
 }
 
 section h1 {
@@ -147,7 +151,7 @@ section h1 {
     padding: 0 20px;
     margin-top: 20px;
     margin-bottom: 0px;
-    font-size: 38px;
+    font-size: 35px;
     line-height: 1.4;
 }
 
@@ -178,6 +182,8 @@ section h4 {
 .middle {
     margin: 0px 0px 0px 3px;
     width: 33.12%;
+    border-left: 2px #eee solid;
+    border-right: 2px #eee solid;
 }
 
 .section-right {
