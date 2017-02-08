@@ -3,6 +3,12 @@
   /*margin: 10px;*/
 }
 
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
 h1 {
   font-family: georgia;
   font-size: 42px;
@@ -18,13 +24,13 @@ h2 {
 
 h3 {
   font-family: helvetica;
-  font-size: 36px;
+  font-size: 30px;
   color: black;
 }
 
 p {
   font-family: helvetica;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
   color: black;
 }
@@ -45,38 +51,40 @@ nav {
   float: right;
   width: 80%;
   overflow: auto;
+  margin-right: 0px;
+  padding: 0px;
+  font-size: 20px;
+  text-align: center;
 }
 
 nav .nav-item1 {
   float: left;
   width: 20%;
   height: 50px;
-  margin-left: 2%;
-  font-size: 24px;
   text-transform: uppercase;
   font-family: impact;
-  font-weight: bold;
 }
 
 nav .nav-item2 {
   float: left;
-  width: 15%;
+  width: 20%;
   height: 50px;
-  margin-left: 2%;
-  font-size: 24px;
   font-family: helvetica;
 }
 
-
 hr {
-  border: 3px solid yellow;
+ border: 5px solid yellow;
+ width: 100%;
+ margin-top: -1px;
+ margin-bottom: -1px;
 }
 
 .subheader {
   width: 100%;
   overflow: auto;
   text-align: center;
-  background-color: #EEE;
+  font-style: italic;
+  background-color: #DDD;
 }
 
 .taste {
@@ -96,50 +104,55 @@ hr {
 }
 
 .hero {
-  height: 800px;
+  height: 550px;
   background-color: #eee;
   width: 100%;
   float: left;
-}
-
-img {
-  display: block;
-  margin: 0;
-  max-width: 100%;
+  background-image: url("../images/coworking.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center;
 }
 
 .matchbox {
-  background-color: hsla(196, 6%, 94%, 0.5);
-  width: 400px;
-  height: 800px;
+  background-color: hsla(0,0%,100%, 0.5);
+  width: 350px;
+  height: 450px;
   padding: 30px;
-  margin-right: 10px;
-  /*position: absolute;*/
+  margin-top: 20px;
+  margin-right: 20px;
+  position: relative;
   top: 20px;
-  left: 0px;
+  right: 10px;
   float: right;
 }
 
 .cta1 {
   font-family: impact;
   font-size: 28px;
-  text-transform: uppercase;
-  text-align: center;
-  width: 300px
-  height: 100px;
+  color: black;
   background-color: yellow;
+/*  border: none;*/
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .cta2 {
   font-family: impact;
   font-size: 28px;
-  text-transform: uppercase;
-  text-align: center;
-  width: 300px
-  height: 100px;
+  color: black;
   background-color: #DDD;
+/*  border: none;*/
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .section {
@@ -162,6 +175,7 @@ footer {
   width: 100%;
   padding: 5px 20px;
   font-family: helvetica;
-  font-size: 24px;
+  font-size: 28px;
   color: white;
+  margin-top: 30px;
 }
