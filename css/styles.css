@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin:0px;
+
+}
+
+header {
+  padding: 20px;
+  background-color: black;
+
+}
+
+h1 {
+  color: yellow;
+  font-size: 32px;
+  font-family: Georgia, serif;
+
+}
+
+h3 {
+  font-family: Georgia, serif;
+  font-size: 24px;
+  display: inline;
+}
+
+nav {
+  position: relative;
+  top: 5px;
+  left: 300px;
+  height: 30px;
+  width: auto;
+  color: white;
+  margin: 23px;
+  font-family: Verdana, sans-serif
+}
+
+a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 3px;
+}
+
+.line{
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+
+.largesquare{
+  background-image: url("../images/coworking2.jpg");
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin: 0px;
+  background-size: cover;
+
+}
+
+.smallsquare {
+  background: rgba(255,255,255, 0.8);;
+  color: black;
+  width: 30%;
+  height: 400px;
+  padding: 30px;
+  border: 2px solid black;
+  position: absolute;
+  top: 350px;
+  left: 700px;
+}
+
+.banner {
+  background-color: #C8C9C7;
+  border-top: 5px solid yellow;
+  padding: 20px;
+  clear: both;
+  color: black;
+  text-align: center;
+  font-style: italic;
+  font-family: Georgia, serif;
+  font-size: 28px;
+}
+
+.boxes {
+  width: 33%;
+  height: 300px;
+  border-left: 1px solid gray;
+  background: white;
+  color: black;
+  float: left;
+  padding: 20px 40px;
+  margin-top: 0px;
+}
+
+.triobox {
+  /*margin-top:10px;
+  margin-bottom: 10px;
+  background-color: white;*/
+}
+
+p {
+  font-family: Verdana, "Geneva", sans-serif;
+  font-size: 20px;
+}
+
+footer{
+  clear: both;
+  padding: 30px;
+  margin: 20px;
+  background-color: black;
+  font-family: Verdana, "Geneva", sans-serif;
+  font-style: bold;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 21px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #C8C9C7;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #53565A;
+  font-family: Impact, sans-serif;
+  display: block;
+  margin: 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.yellowbutton {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 21px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: yellow;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #53565A;
+  font-family: Impact, sans-serif;
+  margin: 3px;
+  margin-left: 15%;
+  margin-right: 10%;
+}
+
+.stronglinks {
+  font-family: Impact, sans-serif;
+  font-style: normal;
+}
+
