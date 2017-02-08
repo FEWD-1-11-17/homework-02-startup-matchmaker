@@ -53,6 +53,7 @@ nav {
 
 section {
   clear: both;
+  height: 80px;
 }
 
 #hero {
@@ -91,8 +92,8 @@ aside {
 }
 
 .cta:nth-child(2) {
-  border-left: 1px solid #eee;
-  border-right: 1px solid #eee;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
 
 }
 
@@ -172,13 +173,11 @@ h4 {
 }
 
 .strike {
-  color: #e3e3e3;
+  color: #a9a9a9;
   text-decoration: line-through;
+  text-decoration-line: 1px;
 }
 
 .underline {
-    text-decoration: underline;
-    -moz-text-decoration-color: red;
-    text-decoration-color: red;
-    color: yellow;
+  border-bottom: 3px solid yellow;
 }
