@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  padding: 0px;
+  width: 1024px;
+  background-image: url(images/coworking.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 103px 0px;
+}
+
+.header {
+  background-color: black;
+  height: 100px;
+  border: black 1px solid;
+  padding: 10px;
+}
+
+nav {
+  overflow: auto;
+  position: relative;
+  top: 10px;
+  left: 380px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: arial;
+  padding-left: 10px;
+}
+
+.subtitle {
+  background-color: #eee;
+  border-top: yellow solid 3px;
+  height: 60px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.taste {
+  text-decoration: line-through;
+  color: darkgrey;
+}
+
+.are {
+ /* text-decoration: underline;
+  text-decoration-color: yellow;
+  text-underline-position: 3px;*/
+  border-bottom: 3px yellow solid;
+}
+
+.callout {
+  background-color:rgba(255,255,255, 0.8);
+  border: black 1px solid;
+  width: 25%;
+  height: 380px;
+  display: inline-block;
+  float: right;
+  position: absolute;
+  top: 230px;
+  left: 750px;
+  padding: 20px;
+  line-height: 1.5;
+  font-size: 18px;
+  font-family: arial;
+}
+
+.callout h3 {
+  font-style: none;
+}
+
+.callout button {
+  width: 250px;
+  height: 40px;
+  background-color: yellow;
+  margin-top: 30px;
+  border-radius: 8px;
+  font-family: impact;
+  font-size: 18px;
+}
+
+.callout.background {
+  opacity: 50%;
+}
+
+h1 {
+  color: yellow;
+  font-size: 28px;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 22px;
+}
+
+.create_profile {
+  float: left;
+  margin-right: 2%;
+  width: 32%;
+  height: 200px;
+  padding: 12px;
+}
+
+.find_developer {
+  float: left;
+  margin-right: 2%;
+  width: 32%;
+  height: 200px;
+  padding: 12px;
+}
+
+.find_designer {
+  float: left;
+  width: 32%;
+  height: 200px;
+  padding: 12px;
+}
+
+.text_blocks h3 {
+  font-style: bold;
+  font-size: 18px;
+  padding top: 10px;
+  padding-bottom: 7px;
+}
+
+.text_blocks button {
+  width: 250px;
+  height: 40px;
+  background-color: darkgrey;
+  margin-top: 20px;
+  border-radius: 8px;
+  font-family: impact;
+  font-size: 18px;
+}
+
+p {
+  font-family: arial;
+  line-height: 1.5;
+}
+
+.vertical-line {
+  border-left: 2px darkgrey solid;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  color: white;
+  height: 40px;
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
