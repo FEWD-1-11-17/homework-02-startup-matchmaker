@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: auto;
+  overflow-y: hidden;
+  background-color: #000;
+  height: 700PX;
+}
+
+header {
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 15px;
+}
+
+header .logo {  
+  float: left;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 34px;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: yellow;
+}
+
+nav {
+  float: right;
+  overflow: auto;
+  width: 100%;
+  margin-right: 20px;
+}
+
+nav .nav-item {
+  float: right;
+  width: auto;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+a {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.button1 {
+  background-color: yellow;
+  color: #000;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 2px #ccc;
+  display: block; width: 100%;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: black;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.linethrough {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.underline {
+  color: black;
+  text-decoration: underline;
+}
+
+.subhead {
+  background-color: #eee;
+  height: 60px;
+  border-top-color: #000;
+  border-style: 2px, solid;
+  font-style: italic;
+  font-size: 25px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.callout {
+  position: absolute;
+  background-color: white;
+  opacity: .8;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin: 20px;
+  top: 200px;
+  right: 160px;
+  box-shadow: 3px 3px 2px #888;
+  max-width: 300px;
+}
+
+.content {
+  overflow: auto;
+  width: 960px;
+  margin: 0 auto;
+  clear: both;
+  margin-bottom: 20px;
+}
+
+.section-left {
+  height: 280px;
+  float: left;
+  width: 320px;
+  margin-top: 15px;
+  padding-right: 20px;
+  border-right: 2px solid #ddd;
+  position: relative;
+}
+
+.center-section {
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+  height: 280px;
+  float: left;
+  width: 30%;
+  position: relative;
+}
+
+.section-right {
+  height: 280px;
+  float: left;
+  width: 30%;
+  margin-top: 15px;
+  padding-left: 20px;
+  border-left: 2px solid #ddd;
+  position: relative;
+}
+
+.button2 {
+  background-color: #ddd;
+  color: #000;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 4px;
+  box-shadow: 3px 3px 2px #ccc;
+  display: block; width: 100%;
+  text-align: center;
+  padding:10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  height: 50px;
+  bottom: 0;
+}
+
+.footer { 
+  overflow: auto;
+  margin: 0 auto;
+  background-color: #000;
+  color: white;
+  text-align: left;
+  vertical-align: center;
+  height: 60px;
+  width: 960px;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
