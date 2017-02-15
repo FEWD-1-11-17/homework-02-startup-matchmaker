@@ -76,6 +76,16 @@ p {
   font-size: 20px;
 }
 
+.linethrough {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.underline {
+  color: black;
+  text-decoration: underline;
+}
+
 .subhead {
   background-color: #eee;
   height: 60px;
