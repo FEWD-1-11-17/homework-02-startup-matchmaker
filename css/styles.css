@@ -10,17 +10,19 @@ body {
   width: 100%;
 }
 
+
+
 header {
   background-color: black;
   border-bottom: 4px yellow solid;
   padding-left: 20px;
   padding-top: 15px;
 }
-
 h1 {
   color: yellow;
   margin: 0;
 }
+
 
 nav {
   padding-left: 160px;
@@ -63,7 +65,7 @@ strike {
 }
 
 span {
-  text-decoration: underline;
+  border-bottom: 2px solid yellow;
 }
 
 h3 {
@@ -76,7 +78,14 @@ h3 {
 .content {
   width: 100%;
   height: 500px;
+  background-image: url("StartupMatchmaker.jpg");
+  background-repeat: no-repeat;
+  background-width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
+
 
 div.content article {
   width: 275px;
@@ -88,7 +97,6 @@ div.content article {
   margin-right: 20px;
   padding: 25px;
   line-height: 1.5;
-
 
 }
 
